@@ -1,3 +1,40 @@
-.hero-picture {width:600px;}
+.hero-picture {
+    width: 600px;
+}
 
-.pic {width:300px;}
+.pic {
+    width: 300px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    display: flex;
+    gap: 6px;
+    margin-left: auto;
+}
+
+.header-links>a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.large-hero-text {font-size: 48px; font-weight: ;}
